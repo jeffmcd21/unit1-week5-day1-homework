@@ -3,17 +3,21 @@
     text-align: center;
     justify-content:space-evenly;   
     flex-wrap: wrap;
-
-
 }
 
-#parent {
-    column-count: 2;
-    height: 145px;
-    width: 80px;
+.parent {
+    /* justify-content: space-around; */
+    column-count: 3;
+    /* height: 145px; */
+    /* width: 80px; */
+    /* box-sizing:border-box; */
+    border: 10px;
+    margin: 50px auto;
 }
 
 .children {
     width: 40px;
-    margin: 0 0 5px 0;
+    margin: 1px;
+    padding: 5px;
+    flex-wrap: wrap;
 }
