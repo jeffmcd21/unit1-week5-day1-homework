@@ -1,0 +1,19 @@
+
+.header {
+    text-align: center;
+    justify-content:space-evenly;   
+    flex-wrap: wrap;
+
+
+}
+
+#parent {
+    column-count: 2;
+    height: 145px;
+    width: 80px;
+}
+
+.children {
+    width: 40px;
+    margin: 0 0 5px 0;
+}
